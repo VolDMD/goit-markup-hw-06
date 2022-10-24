@@ -282,7 +282,7 @@ body{
     transition: 250ms var(--timing-function)
 }
 /*---------------------Модальне вікно---------------*/
-
+/*---*/
 .modal{
     position: absolute;
     top: 50%;
