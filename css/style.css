@@ -285,8 +285,6 @@ body{
 
 .modal{
     position: absolute;
-    display: flex;
-    justify-content: end;
     top: 50%;
     left: 50%;
     min-width: 528px;
@@ -297,9 +295,13 @@ body{
     transform: translate(-50%, -50%) scale(1);
     transition: 250ms var(--timing-function);
 }
+
 .button-close{
+    position: absolute;
     display: flex;
     align-items: center;
+    justify-content: center;
+    cursor: pointer;
     width: 30px;
     height: 30px;
     margin: 8px;
@@ -307,8 +309,13 @@ body{
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     transition: 250ms var(--timing-function)
-
 }
+
+
+    
+  
+
+
 
 
 
