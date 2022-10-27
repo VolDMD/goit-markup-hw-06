@@ -282,7 +282,7 @@ body{
     transition: 250ms var(--timing-function)
 }
 /*---------------------Модальне вікно---------------*/
-/*---*/
+
 .modal{
     position: absolute;
     top: 50%;
@@ -305,7 +305,6 @@ body{
     cursor: pointer;
     width: 30px;
     height: 30px;
-   
     background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
@@ -337,10 +336,7 @@ body{
     
 }
 
-.modal-group-form {
-   
-    
-}
+
   
 .form-field {
     position: relative;
